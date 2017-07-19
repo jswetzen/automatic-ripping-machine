@@ -18,7 +18,7 @@ TIMESTAMP=$5
 	if [ -z "$HB_PRESET" ]; then
 		HB_PRESET_PARAMETER=""
 	else
-		HB_PRESET_PARAMETER="--preset ${HB_PRESET}"
+		HB_PRESET_PARAMETER="--preset \"${HB_PRESET}\""
 	fi
 
 	if [ "$HAS_NICE_TITLE" = true ]; then
