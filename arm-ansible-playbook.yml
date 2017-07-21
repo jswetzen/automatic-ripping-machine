@@ -44,6 +44,7 @@
       git:
         repo: 'https://github.com/ahnooie/automatic-ripping-machine.git'
         dest: /opt/arm
+        version: dev
 
     - name: install pip dependencies
       pip:
