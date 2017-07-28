@@ -46,6 +46,8 @@
       dest: /opt/arm
       force: yes
       version: dev
+  # Ensure libdvd-pkg is reconfigured
+  - meta: flush_handlers
 
   - name: install pip dependencies
     pip:
